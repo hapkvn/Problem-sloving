@@ -1,0 +1,14 @@
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\Cats and a Mouse.GeneratedMSBuildEditorConfig.editorconfig
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\Cats and a Mouse.AssemblyInfoInputs.cache
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\Cats and a Mouse.AssemblyInfo.cs
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\Cats and a Mouse.csproj.CoreCompileInputs.cache
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\bin\Debug\net8.0\Cats and a Mouse.exe
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\bin\Debug\net8.0\Cats and a Mouse.deps.json
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\bin\Debug\net8.0\Cats and a Mouse.runtimeconfig.json
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\bin\Debug\net8.0\Cats and a Mouse.dll
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\bin\Debug\net8.0\Cats and a Mouse.pdb
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\Cats and a Mouse.dll
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\refint\Cats and a Mouse.dll
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\Cats and a Mouse.pdb
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\Cats and a Mouse.genruntimeconfig.cache
+D:\MEDIA\PROJECT\ProblemSloving\Cats and a Mouse\obj\Debug\net8.0\ref\Cats and a Mouse.dll
