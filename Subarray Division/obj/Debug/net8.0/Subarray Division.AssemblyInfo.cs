@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Subarray Division")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fd550901d8e18c2c7f516d4e789a8cb3e6772d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Subarray Division")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Subarray Division")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
