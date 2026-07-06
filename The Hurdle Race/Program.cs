@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 class Program
 {
@@ -8,24 +9,10 @@ class Program
         int max_high = input_number[1];
 
         int[] input_objects = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-        int temp=0;
-        int increace_high = 0;
-        for(int i=0; i<input_objects.Length; i++)
-        {
-            if (input_objects[i] > max_high)
-            {
-                temp = input_objects[i] - max_high;
-                if(temp>= increace_high)
-                {
-                    increace_high = temp;
-                }
-                else
-                {
-                    Console.WriteLine("0");
-                }
-            }
-        }
+       int hurdle = input_objects.Max();
 
-        Console.WriteLine(increace_high);
+       int poition_needed = hurdle > max_high ? hurdle - max_high : 0;
+
+        Console.WriteLine(poition_needed);
     }
 }

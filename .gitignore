@@ -1,1 +1,6 @@
 /.vscode
+bin/
+/output
+obj/
+build/
+.idea/
