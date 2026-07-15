@@ -13,8 +13,7 @@ class Program
         {
             
                 int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-                arrayM.Add(arr);
-            
+                arrayM.Add(arr);            
         }
 
         foreach(int[] arrM in arrayM)
