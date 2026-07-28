@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        
 
         String input_home = Console.ReadLine();
         string[] home = input_home.Split(' ');
