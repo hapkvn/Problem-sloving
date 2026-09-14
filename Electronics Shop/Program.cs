@@ -11,31 +11,23 @@ class Program
         int max_Price = arr_or[0];
         int[] arr_price = new int[key.Length +desk.Length];
         List<int> list = arr_price.ToList();
-        int max =0;
+        int max =-1;
 
         for(int i=0; i<key.Length; i++)
         {
             for(int j=0; j<desk.Length; j++)
             {
-                list[i+j] = key[i]+desk[j];
+                int comobo = key[i]+desk[j];
 
-                if(list[i+j]>=max && list[i+j]<= max_Price)
+                if(comobo>=max && comobo<= max_Price)
                 {
-                    max = list[i+j];
+                    max = comobo;
                 }
             }
 
-        }
-    
-
-        if(max == 0 )
-        {
-            Console.WriteLine("-1");
-        }
-        else
-        {
+        }    
             Console.WriteLine(max);
-        }
+
         
     }
 }
