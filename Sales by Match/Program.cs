@@ -19,12 +19,9 @@ class Program
         for(int i=0; i<temp_arr.Length; i++)
         {
             temp_arr[i] = temp_arr[i]/2;
-        }
-        for(int i=0; i<temp_arr.Length; i++)
-        {
-            
             sum += temp_arr[i];
         }
+        
     
 
         Console.WriteLine(sum);
