@@ -10,19 +10,10 @@ class Program
 
         int begin = p/2;
 
-        int end = n/2;
+        int end = n/2 - p/2;
 
-        int form_end = end-begin;
 
-        if(form_end>= begin)
-        {
-            Console.WriteLine(begin);
-        }
-        else
-        {
-         Console.WriteLine(form_end);
-  
-        }
+        Console.WriteLine(Math.Min(begin, end));
 
     }
 }
