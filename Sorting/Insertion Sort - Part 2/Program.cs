@@ -1,42 +1,28 @@
 ﻿using System;
 
-class InsertionSortExample
+class Program
 {
-    static void Main()
+    public static void Main()
     {
         int n = int.Parse(Console.ReadLine());
-        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-        
-        PrintArray(arr);
-        
-        InsertionSort(arr);
-        
-        PrintArray(arr);
-    }
+        int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
-    static void InsertionSort(int[] arr)
-    {
-        int n = arr.Length;
-        
         for (int i = 1; i < n; i++)
         {
-            int key = arr[i];
-            int j = i - 1;
+            int temp = arr[i]; 
+            
+            int j = i - 1; 
 
-            while (j >= 0 && arr[j] > key)
+            while (j >= 0 && arr[j] > temp)
             {
                 arr[j + 1] = arr[j];
-                j = j - 1;
+                j--; 
             }
-            
-            arr[j + 1] = key;
 
-            PrintArray(arr);
+       
+            arr[j + 1] = temp;
+
+            Console.WriteLine(string.Join(" ", arr));
         }
-    }
-
-    static void PrintArray(int[] arr)
-    {
-        Console.WriteLine(string.Join(" ", arr));
     }
 }
