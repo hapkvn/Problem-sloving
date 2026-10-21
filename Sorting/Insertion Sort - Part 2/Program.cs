@@ -7,22 +7,22 @@ class Program
         int n = int.Parse(Console.ReadLine());
         int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
-        for (int i = 1; i < n; i++)
+        for(int i = 1; i<n; i++)
         {
-            int temp = arr[i]; 
-            
-            int j = i - 1; 
+            int temp = arr[i];
 
-            while (j >= 0 && arr[j] > temp)
+            int j = i - 1;
+
+            while(j>=0 && arr[j] > temp)
             {
-                arr[j + 1] = arr[j];
-                j--; 
+                arr[j+1] = arr[j];
+                j--;
             }
 
-       
-            arr[j + 1] = temp;
+            arr[j+1] = temp;
 
-            Console.WriteLine(string.Join(" ", arr));
+
         }
+        Console.Write(arr + " ");
     }
 }
