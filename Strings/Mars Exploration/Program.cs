@@ -10,10 +10,10 @@ class Program
         for(int i=0; i<sos.Length; i ++)
         {
             
-                if(sos[i] !=idea_sos[i%3])
-                {
-                    sum++;
-                }
+            if(sos[i] !=idea_sos[i%3])
+            {
+                sum++;
+            }
             
         }
         Console.WriteLine(sum);
